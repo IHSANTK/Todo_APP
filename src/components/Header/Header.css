@@ -1,0 +1,13 @@
+header{
+
+    background-color: rgb(34, 56, 77);
+ 
+}
+header a{
+    color: rgb(80, 80, 131);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: rgb(148, 148, 114);
+}
