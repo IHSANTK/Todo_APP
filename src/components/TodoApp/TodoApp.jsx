@@ -41,15 +41,16 @@ export default class TodoApp extends Component {
   };
 
   handleSaveEdit = () => {
+    console.log("ook");
     const { items, editingIndex, editedItem } = this.state;
     const updatedItems = [...items];
     updatedItems[editingIndex] = editedItem;
 
     this.setState({
       items: updatedItems,
-      editingIndex: null, // Reset editing index
-      showModal: false, // Hide the modal after saving
-      editedItem: '' // Clear the edited item state
+      editingIndex: null, 
+      showModal: false, 
+      editedItem: '' 
     });
   };
 
