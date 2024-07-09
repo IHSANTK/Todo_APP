@@ -41,7 +41,7 @@ export default class TodoApp extends Component {
   };
 
   handleSaveEdit = () => {
-    console.log("ook");
+    console.log("ok");
     const { items, editingIndex, editedItem } = this.state;
     const updatedItems = [...items];
     updatedItems[editingIndex] = editedItem;
